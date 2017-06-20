@@ -1,0 +1,618 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "-"
+    },
+    {
+      "id": 1,
+      "name": "Videojuegos"
+    },
+    {
+      "id": 2,
+      "name": "Películas"
+    },
+    {
+      "id": 3,
+      "name": "Libros"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Uncharted 4: El Desenlace del Ladrón [PS4]",
+      "description": "<p>Tres años después de los hechos acaecidos en Uncharted 3: La traición de Drake, Nathan Drake ha dejado atrás la búsqueda de tesoros. Sin embargo, el destino no tarda en llamar a su puerta cuando su hermano Sam reaparece pidiéndole ayuda para salvar su vida, además de ofrecerle participar en una aventura ante la que Nathan no puede resistirse. Los dos parten a la caza del tesoro perdido del capitán Henry Avery y en busca de Libertalia, el utópico refugio pirata que se halla en lo más profundo de los bosques de Madagascar. Uncharted 4: El desenlace del ladrón embarca al jugador en un viaje alrededor del globo por islas selváticas, grandes ciudades y nevados picos montañosos en busca del tesoro de Avery.</p>",
+      "category": {
+        "id": 1,
+        "name": "Videojuegos"
+      },
+      "seller": {
+        "id": 1,
+        "nick": "yippeekiyay",
+        "avatar": "assets/images/jaxm2mrc1k4zwn5y.jpg"
+      },
+      "publishedDate": 1461103200000,
+      "state": "selling",
+      "price": 59.9,
+      "photo": "assets/images/9r1om3iqfhwqyc9y.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Heavy Rain & Beyond: Dos Almas [PS4]",
+      "description": "<p>Mucho más allá del cine, mucho más que un videojuego. Disfruta de dos auténticos clásicos que marcaron un antes y un después en el género de acción ahora remasterizados a 1080p y 60 fps. Sumérgete en un vertiginoso thriller psicológico con el exitoso Heavy Rain, en el que cada elección y cada acción puede tener consecuencias dramáticas, y determinar quién vive...y quién muere. Déjate atrapar por una trama de acción y suspense con Beyond: Dos Almas protagonizada por los actores de Hollywood Ellen Page y Willem Dafoe.</p>",
+      "category": {
+        "id": 1,
+        "name": "Videojuegos"
+      },
+      "seller": {
+        "id": 2,
+        "nick": "godhatesusall",
+        "avatar": "assets/images/vuvp3t7rhk26byad.jpg"
+      },
+      "publishedDate": 1456873200000,
+      "state": "selling",
+      "price": 32.96,
+      "photo": "assets/images/pga6sj6a7qh46yry.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Call Of Duty: Black Ops III [PS4]",
+      "description": "<p>Bienvenidos a Call of Duty: Black Ops 3, un futuro oscuro y retorcido en el que nace una nueva raza de soldados Black Ops y en el que se difuminan las líneas entre nuestra propia humanidad y la tecnología que creamos para estar a la vanguardia, en un mundo en el que la robótica militar punta define la guerra.</p><p>Call of Duty: Black Ops 3 combina tres modos únicos de juego: Campaña, Multijugador y Zombies, proporcionando a los fans el Call of Duty más profundo y ambicioso creado hasta la fecha. La Campaña ha sido diseñada como un juego cooperativo que puede jugarse online con hasta cuatro jugadores o en solitario, como un trepidante viaje cinemático. El Multijugador será el más profundo, satisfactorio y adictivo hasta la fecha, con nuevas formas para subir de rango, personalizarse y prepararse para la batalla. Y el modo Zombies proporciona una nueva experiencia de infarto con su propia narrativa. Call of Duty: Black Ops 3 puede jugarse online al completo y, por primera vez, cada uno de sus modos ofrece su propia XP al jugador, así como su sistema de progresión. El juego da paso a un nivel de innovación sin precedentes que incluye escenarios impresionantes, armas y habilidades nunca vistas y la presentación de un nuevo y mejorado sistema de movimientos fluido. Todo esto cobra vida gracias a la tecnología avanzada diseñada a medida para este título, que incluye una nueva inteligencia artificial y un nuevo sistema de animación, así como gráficos que redefinen los estándares de lo que los fans de Call of Duty pueden esperar de la aclamada serie de juegos, con los sistemas de iluminación y los efectos visuales más avanzados.</p>",
+      "category": {
+        "id": 1,
+        "name": "Videojuegos"
+      },
+      "seller": {
+        "id": 3,
+        "nick": "stickthemwiththepointyend",
+        "avatar": "assets/images/qkmrrsm4dc9gev2z.jpg"
+      },
+      "publishedDate": 1446764400000,
+      "state": "selling",
+      "price": 56.72,
+      "photo": "assets/images/r5onatvd4yek89pb.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Assassin's Creed: Unity [PS4]",
+      "description": "<p>La ya legendaria saga Assassin's Creed regresa con un episodio exclusivo de la nueva generación, el cual también aparece en Windows PC para disfrute de todos los fans del enfrentamiento entre assassins y templarios. Ubisoft traslada a los usuarios a la Revolución Francesa, histórica época que tiene mucho que ofrecer a los aventureros dispuestos a profundizar en ella.</p><p>Assassin's Creed: Unity plantea una nueva historia que continúa explorando el pasado de algunos de los mayores conflictos del mundo dándole protagonismo a la presencia que tuvieron los assassin y los templarios en estos eventos. En esta ocasión el protagonista es Arno, que tendrá a su disposición no solo nuevas técnicas de combate y movimientos, sino también el inestimable apoyo de los compañeros de su hermandad.</p>",
+      "category": {
+        "id": 1,
+        "name": "Videojuegos"
+      },
+      "seller": {
+        "id": 4,
+        "nick": "samcropresident",
+        "avatar": "assets/images/ghe2fvcoo9esptbe.jpg"
+      },
+      "publishedDate": 1415833200000,
+      "state": "selling",
+      "price": 19.95,
+      "photo": "assets/images/jn2pkz3g6fd74ucf.jpg"
+    },
+    {
+      "id": 5,
+      "name": "God of War 3 [PS4]",
+      "description": "<p>Desde que su leyenda comenzara años atrás, la historia de Kratos en la saga God of War siempre ha estado representada por la acción más desenfrenada. Con God of War III el personaje vivió el momento de mayor clímax a lo largo de su historia, un título que no decepcionó a los jugadores y que les dejó con ganas de mucho más.</p><p>Este es el motivo por el cual Sony ha decidido recuperarlo por todo lo alto en PlayStation 4, en forma de remasterización con mejores gráficos y novedades de contenido para satisfacer a los fans. El resultado sigue la línea de las remasterizaciones que se han visto con anterioridad en el catálogo de Sony, ofreciendo al público exactamente aquello que recuerdan, pero con suficientes añadidos como para que sientan interés de nuevo.</p>",
+      "category": {
+        "id": 1,
+        "name": "Videojuegos"
+      },
+      "seller": {
+        "id": 5,
+        "nick": "pussywagon",
+        "avatar": "assets/images/7pqa7tkcp54rupte.jpg"
+      },
+      "publishedDate": 1436911200000,
+      "state": "selling",
+      "price": 27.71,
+      "photo": "assets/images/96zzqoynhs5svcyy.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Driveclub [PS4]",
+      "description": "<p>No se trata de coches, ni de circuitos, ni de clasificaciones. Ni siquiera se trata de vencedores ni vencidos. Lo que cuenta es la unión: el sacrificio común hacia la conquista de puntos y recompensas. Y sobre todo, se trata de pertenecer a un equipo y sentir auténtica pasión a toda velocidad. Únete a un equipo o, mejor aún, crea uno e invita a tus amigos y expulsa a aquel que no cumpla con las expectativas. Participa en carreras, eventos especiales y torneos contra equipos de todo el mundo, no pasa nada si te alejas de la primera posición: cada curva es un desafío único donde aguardan puntos adicionales para tu equipo y como no, para ti. Estáis juntos en esto. Lo que importa es el trabajo en equipo. En Driveclub, el objetivo es conseguir puntos.</p>",
+      "category": {
+        "id": 1,
+        "name": "Videojuegos"
+      },
+      "seller": {
+        "id": 6,
+        "nick": "ivolunteer",
+        "avatar": "assets/images/v7hkfs7z42qmk2m8.jpg"
+      },
+      "publishedDate": 1412719200000,
+      "state": "selling",
+      "price": 23.21,
+      "photo": "assets/images/hb1ncwtuyv2vpciw.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Far Cry Primal [PS4]",
+      "description": "<p>La aclamada serie Far Cry, ambientada en el trópico y en el Himalaya, entra en la era de la lucha por la supervivencia de la raza humana con su innovador mundo abierto, bestias enormes, entornos increíbles y encuentros salvajes impredecibles.</p><p>Bienvenido a la Edad de Piedra, una época de peligros extremos y aventuras sin límite. Cuando los mamuts gigantes y los tigres dientes de sable dominaban la Tierra y la humanidad estaba en la cola de la cadena alimentaria. Como último superviviente de tu grupo de caza, aprenderás a crear un arsenal mortífero, a repeler feroces depredadores y a superar en ingenio a las tribus enemigas para conquistar la tierra de Oros y convertirte en el superdepredador.</p>",
+      "category": {
+        "id": 1,
+        "name": "Videojuegos"
+      },
+      "seller": {
+        "id": 1,
+        "nick": "yippeekiyay",
+        "avatar": "assets/images/jaxm2mrc1k4zwn5y.jpg"
+      },
+      "publishedDate": 1456182000000,
+      "state": "selling",
+      "price": 55,
+      "photo": "assets/images/xv8q2f7d2mde3htz.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Killzone: Shadow Fall [PS4]",
+      "description": "<p>Lucha por entender la realidad con la intensa y absorbente acción de la serie Killzone, que regresa para PS4.</p><p>Nueva entrega de esta popular saga de juegos de acción en primera persona, que nos permite revivir los primeros compases del conflicto entre los Helghast y las tropas de ISA.</p><p>¿Qué tipo de héroe serás?</p><p>Treinta años después de escapar de la devastación de su planeta natal, los refugiados Helghast conviven con sus parientes humanos en Vekta. Un gran muro que divide las sociedades ha hecho de esta hazaña casi impensable toda una realidad, aunque las cicatrices causadas tras siglos de guerra no son tan fáciles de olvidar.</p><p>Como el Shadow Marshal Lucas Kellan, has jurado defender a tus camaradas; sin embargo descubrirás una nueva faceta de este vetusto conflicto, y de ti mismo, en el preciso momento en el que conozcas a Echo, la misteriosa y mortífera soldado Helghast.</p>",
+      "category": {
+        "id": 1,
+        "name": "Videojuegos"
+      },
+      "seller": {
+        "id": 2,
+        "nick": "godhatesusall",
+        "avatar": "assets/images/vuvp3t7rhk26byad.jpg"
+      },
+      "publishedDate": 1384988400000,
+      "state": "selling",
+      "price": 18.95,
+      "photo": "assets/images/i72vphihfj4fptgs.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Halo 5: Guardians [XBOX ONE]",
+      "description": "<p>La paz llega a su fin cuando los planetas-colonia son atacados por sorpresa. Con el mayor héroe de la humanidad en paradero desconocido, al Spartan Locke se le encomienda la misión de dar caza al Jefe Maestro y resolver un misterio que amenaza a toda la Galaxia.</p>",
+      "category": {
+        "id": 1,
+        "name": "Videojuegos"
+      },
+      "seller": {
+        "id": 3,
+        "nick": "stickthemwiththepointyend",
+        "avatar": "assets/images/qkmrrsm4dc9gev2z.jpg"
+      },
+      "publishedDate": 1416610800000,
+      "state": "selling",
+      "price": 27.85,
+      "photo": "assets/images/48mtnnv2m2ry15ah.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Minecraft [XBOX ONE]",
+      "description": "<p>Descubre un mundo con la libertad de hacer lo que se te antoje. Explora en las desconocidas profundidades o construye estructuras increíbles, desde humildes hogares hasta enormes paisajes urbanos. Hazlo solo o únete a tus amigos en este viaje. El único límite es tu imaginación.</p>",
+      "category": {
+        "id": 1,
+        "name": "Videojuegos"
+      },
+      "seller": {
+        "id": 4,
+        "nick": "samcropresident",
+        "avatar": "assets/images/ghe2fvcoo9esptbe.jpg"
+      },
+      "publishedDate": 1416870000000,
+      "state": "selling",
+      "price": 17.9,
+      "photo": "assets/images/9agxnfiwur25nrp4.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Los Odiosos Ocho [Blu-Ray]",
+      "description": "<p>Años después de la Guerra de Secesión, una diligencia avanza a toda velocidad por el invernal paisaje de Wyoming. Los pasajeros, el cazarrecompensas John Ruth (Kurt Russell) y su fugitiva Daisy Domergue (Jennifer Jason Leigh), intentan llegar rápidamente al pueblo de Red Rock, donde Ruth, conocido en estos lares como “El verdugo”, entregará a Domergue a la justicia. Por el camino, se encuentran con dos desconocidos: el mayor Marquis Warren (Samuel L. Jackson), un antiguo soldado negro de la Unión convertido en cazarrecompensas de mala reputación, y Chris Mannix (Walton Goggins), un renegado sureño que afirma ser el nuevo sheriff del pueblo. Como una ventisca está a punto de alcanzarlos, Ruth, Domergue, Warren y Mannix se refugian en la Mercería de Minnie, una parada para diligencias de un puerto de montaña. Cuando llegan al local de Minnie, en lugar de recibirlos su dueña, se topan con cuatro rostros desconocidos. Bob (Demian Bichir), que se ocupa del negocio de Minnie mientras ella visita a su madre, se encuentra allí refugiado junto con Oswaldo Mobray (Tim Roth), verdugo de Red Rock, el vaquero Joe Gage (Michael Madsen) y el general confederado Sanford Smithers (Bruce Dern). Mientras la tormenta cae sobre la parada de montaña, nuestros ocho viajeros descubren que tal vez no lleguen hasta Red Rock después de todo.</p>",
+      "category": {
+        "id": 2,
+        "name": "Películas"
+      },
+      "seller": {
+        "id": 5,
+        "nick": "pussywagon",
+        "avatar": "assets/images/7pqa7tkcp54rupte.jpg"
+      },
+      "publishedDate": 1464127200000,
+      "state": "sold",
+      "price": 16.74,
+      "photo": "assets/images/wpj2tpu8vfguqwhn.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Mi Vecino Totoro [Blu-Ray]",
+      "description": "<p>En los años 50, una familia japonesa se traslada al campo. Las dos hijas, Satsuki y Mei, entablan amistad con Totoro, un espíritu del bosque. El padre es un profesor universitario que estimula la imaginación de sus hijas relatándoles fábulas e historias mágicas sobre duendes, fantasmas y espíritus protectores de los hogares, mientras la madre se encuentra enferma en el hospital.</p>",
+      "category": {
+        "id": 2,
+        "name": "Películas"
+      },
+      "seller": {
+        "id": 6,
+        "nick": "ivolunteer",
+        "avatar": "assets/images/v7hkfs7z42qmk2m8.jpg"
+      },
+      "publishedDate": 1351551600000,
+      "state": "selling",
+      "price": 10.01,
+      "photo": "assets/images/q9r1id3i2gaan3vh.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Capitán América: El Primer Vengador [Blu-Ray]",
+      "description": "<p>El Capitán América lidera la lucha por la libertad en esta superproducción repleta de acción y protagonizada por Chris Evans, como el arma definitiva contra el mal. Cuando una fuerza aterradora amenaza al planeta entero, el mejor soldado del mundo hace la guerra a la diabólica organización HYDRA, dirigida por el malvado Cráneo Rojo (Hogo Weaving, Matrix).</p>",
+      "category": {
+        "id": 2,
+        "name": "Películas"
+      },
+      "seller": {
+        "id": 1,
+        "nick": "yippeekiyay",
+        "avatar": "assets/images/jaxm2mrc1k4zwn5y.jpg"
+      },
+      "publishedDate": 1380578400000,
+      "state": "selling",
+      "price": 11.9,
+      "photo": "assets/images/t43vp5y57troktxi.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Sicario [Blu-Ray]",
+      "description": "<p>En la zona fronteriza sin ley que se extiende entre Estados Unidos y Mexico, Kate Mercer, una idealista agente del FBI, es reclutada por Matt Graver, un oficial de las fuerzas de élite gubernamentales, para ayudar en la creciente guerra contra las drogas. Liderado por Alejandro, un enigmático consultor con un pasado oscuro, el equipo se embarca en un viaje clandestino que obligará a Kate a cuestionarse todo aquello en lo que cree si quiere sobrevivir.</p>",
+      "category": {
+        "id": 2,
+        "name": "Películas"
+      },
+      "seller": {
+        "id": 2,
+        "nick": "godhatesusall",
+        "avatar": "assets/images/vuvp3t7rhk26byad.jpg"
+      },
+      "publishedDate": 1459288800000,
+      "state": "selling",
+      "price": 13.41,
+      "photo": "assets/images/oz4i8gqityrhzv93.jpg"
+    },
+    {
+      "id": 15,
+      "name": "La Quinta Ola [Blu-Ray]",
+      "description": "<p>Cuatro oleadas sucesivas de ataques cada vez más mortíferos han dejado la mayor parte de la Tierra diezmada. En una atmósfera de miedo y desconfianza, Cassie (Chloë Grace Moretz) se encuentra huyendo, tratando desesperadamente de salvar a su hermano pequeño. Mientras se prepara para la inevitable y letal quinta ola, Cassie se alía con un joven que podría convertirse en su única esperanza.</p>",
+      "category": {
+        "id": 2,
+        "name": "Películas"
+      },
+      "seller": {
+        "id": 3,
+        "nick": "stickthemwiththepointyend",
+        "avatar": "assets/images/qkmrrsm4dc9gev2z.jpg"
+      },
+      "publishedDate": 1463522400000,
+      "state": "selling",
+      "price": 14.28,
+      "photo": "assets/images/cw4t2tej37duxrfs.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Ponyo En El Acantilado [Blu-Ray]",
+      "description": "<p>Sosuke, un niño de cinco años, vive en lo más alto de un acantilado que da al mar. Una mañana, mientras juega en una playa rocosa que hay bajo su casa, se encuentra con una pececita de colores llamada Ponyo, con la cabeza atascada en un tarro de mermelada. Sosuke la rescata y la guarda en un cubo verde de plástico. Ponyo y Sosuke sienten una fascinación mutua. Él le dice: “No te preocupes, te protegeré y cuidaré de ti”. Sin embargo, el padre de Ponyo, Fujimoto, que en otro tiempo fue humano y ahora es un hechicero que vive en lo más profundo del océano, la obliga a regresar con él a las profundidades del mar. “¡Quiero ser humana!”, exclama Ponyo y, decidida a convertirse en una niña y regresar con Sosuke, escapa. Se desata el caos. Las aguas se agitan. Las hermanas de Ponyo se transforman en enormes maremotos con forma de pez que llegan hasta la casa de Sosuke, en lo alto del acantilado. La locura del mundo marino envuelve el pueblecito de Sosuke, que se sumerge bajo las olas... Una niña y un niño. Amistad y responsabilidad. El mar y la vida misma. Hayao Miyazaki ofrece en Ponyo una historia apasionante sobre una madre, su hijo y una pececita muy curiosa.</p>",
+      "category": {
+        "id": 2,
+        "name": "Películas"
+      },
+      "seller": {
+        "id": 4,
+        "nick": "samcropresident",
+        "avatar": "assets/images/ghe2fvcoo9esptbe.jpg"
+      },
+      "publishedDate": 1335909600000,
+      "state": "selling",
+      "price": 10.01,
+      "photo": "assets/images/mp8ihvy3kfkniwn7.jpg"
+    },
+    {
+      "id": 17,
+      "name": "X-Men: Días Del Futuro Pasado [Blu-Ray]",
+      "description": "<p>Los X-Men luchan por la supervivencia de la especie en una guerra que se desarrolla en épocas diferentes. Los personajes de la trilogía cinematográfica original de X-Men unen sus fuerzas a las que ellos mismos poseían en el pasado, cuando eran más jóvenes tal y como aparecen en X-Men: Primera generación, para cambiar un importante acontecimiento histórico y librar una épica batalla que podría salvar nuestro futuro.</p>",
+      "category": {
+        "id": 2,
+        "name": "Películas"
+      },
+      "seller": {
+        "id": 5,
+        "nick": "pussywagon",
+        "avatar": "assets/images/7pqa7tkcp54rupte.jpg"
+      },
+      "publishedDate": 1412114400000,
+      "state": "selling",
+      "price": 11.1,
+      "photo": "assets/images/xjj1v2xhy2na5jmt.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Dredd [Blu-Ray]",
+      "description": "<p>En un futuro cercano, Norteamérica se ha convertido en un páramo asolado por la radiactividad. Una única y gran megalópolis se extiende a lo largo de la costa este: Mega City 1. Esta inmensa y violenta urbe cuenta con una población de más de 400 millones de personas, cada una de las cuales es un infractor en potencia. Los encargados de acabar con el caos e imponer el orden son unos individuos que actúan a la vez como agentes de la ley, jueces, jurados y verdugos. Al frente de ellos está Dredd (Karl Urban), una leyenda viva de la justicia que vive entregado por entero a hacer cumplir la ley. En una misión aparentemente rutinaria junto a Cassandra Anderson (Olivia Thrilby), una juez novata dotada de grandes habilidades psíquicas, se disponen a investigar un homicidio en un peligroso rascacielos de 200 pisos de altura, controlado por el clan de la despiadada Ma-Ma (Lena Headley). Pero al intentar arrestar a uno de los principales secuaces de Ma-Ma, ella cierra a cal y canto todo el edificio y ordena a sus hombres que capturen a los jueces. La lucha por la supervivencia, obligará a Dredd y Cassandra a actuar de manera implacable. Nueva adaptación del cómic homónimo ya llevado a la pantalla en 1995.</p>",
+      "category": {
+        "id": 2,
+        "name": "Películas"
+      },
+      "seller": {
+        "id": 6,
+        "nick": "ivolunteer",
+        "avatar": "assets/images/v7hkfs7z42qmk2m8.jpg"
+      },
+      "publishedDate": 1360018800000,
+      "state": "selling",
+      "price": 12.4,
+      "photo": "assets/images/gwdco5phrzvuxm91.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Los Juegos Del Hambre: En Llamas [Blu-Ray]",
+      "description": "<p>Katniss Everdeen vuelve a casa sana y salva después de ganar los 74º Juegos del Hambre anuales junto a su tributo Peeta Mellark. Ganar significa tener que dejar atrás a familia y amigos, y embarcarse en el Tour de la Victoria por los diferentes distritos. A lo largo del camino, Katniss se da cuenta de que una rebelión comienza a gestarse, pero en el Capitolio continúa todo bajo control mientras el Presidente Snow organiza los 75 Juegos del Hambre anuales (El Vasallaje), una competición que cambiará Panem para siempre.</p>",
+      "category": {
+        "id": 2,
+        "name": "Películas"
+      },
+      "seller": {
+        "id": 1,
+        "nick": "yippeekiyay",
+        "avatar": "assets/images/jaxm2mrc1k4zwn5y.jpg"
+      },
+      "publishedDate": 1394751600000,
+      "state": "selling",
+      "price": 11.1,
+      "photo": "assets/images/n96vtrgippjfk4f7.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Searching For Sugar Man [Blu-Ray]",
+      "description": "<p>A finales de los años 60, un músico fue descubierto en un bar de Detroit por dos célebres productores que quedaron prendados de sus melodías conmovedoras y de sus letras proféticas. Grabaron un disco que ellos creían que situaría al artista como uno de los más grandes de su generación. Sin embargo, el éxito nunca llegó. De hecho, el cantante desapareció en la oscuridad en medio de rumores sobre su horripilante suicidio encima del escenario. Mientras la figura del artista se perdía en el olvido, una grabación pirata llegó a la Sudáfrica del Apartheid y durante las dos siguientes décadas Rodríguez se fue convirtiendo en un fenómeno. Dos fans sudafricanos se empeñan ahora en averiguar qué pasó realmente con su héroe. Su investigación los ha llevado hasta la historia más extraordinaria que cualquiera de las existentes sobre el mito del artista conocido como Rodríguez.</p>",
+      "category": {
+        "id": 2,
+        "name": "Películas"
+      },
+      "seller": {
+        "id": 2,
+        "nick": "godhatesusall",
+        "avatar": "assets/images/vuvp3t7rhk26byad.jpg"
+      },
+      "publishedDate": 1369173600000,
+      "state": "selling",
+      "price": 13.9,
+      "photo": "assets/images/e7kk3ci2itgh5uj9.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Sé lo que estás pensando [John Verdon]",
+      "description": "<p>Un hombre recibe una carta que le urge a pensar en un número, cualquiera. Cuando abre el pequeño sobre que acompaña al texto, siguiendo las instrucciones que figuran en la propia carta, se da cuenta de que el número allí escrito es exactamente en el que había pensado. David Gurney, un policía que después de 25 años de servicio se ha retirado al norte del Estado de Nueva York con su esposa, se verá involucrado en el caso cuando un conocido, el que ha recibido la carta, le pide ayuda para encontrar a su autor con urgencia. Pero lo que en principio parecía poco más que un chantaje se ha acabado convirtiendo en un caso de asesinato que además guarda relación con otros sucedidos en el pasado. Gurney deberá desentrañar el misterio de cómo este criminal parece capaz de leer la mente de sus víctimas en primer lugar, para poder llegar a establecer el patrón que le permita atraparlo.</p>",
+      "category": {
+        "id": 3,
+        "name": "Libros"
+      },
+      "seller": {
+        "id": 3,
+        "nick": "stickthemwiththepointyend",
+        "avatar": "assets/images/qkmrrsm4dc9gev2z.jpg"
+      },
+      "publishedDate": 1315778400000,
+      "state": "selling",
+      "price": 9.45,
+      "photo": "assets/images/fxfpsgs9rvygk5xc.jpg"
+    },
+    {
+      "id": 22,
+      "name": "El veneno que nos separa [Irene Hall]",
+      "description": "<p>Carla no lo ha pasado bien, ni por sus anteriores relaciones con los hombres, ni por su trágico pasado adolescente. Fría y distante con todo aquel que se le acerca, es una mujer que no necesita un caballero andante. Esta veinteañera sabe cuidar muy bien de sí misma pero, irremediablemente, llega un momento en que la soledad y los recuerdos pesan demasiado. Justo entonces aparece Daniel Morales.</p><p>¿Y qué decir de Morales? Es el típico al que se le podría aplicar aquello de que las apariencias engañan, porque tras esa sonrisa de cine esconde todo lo bueno y todo lo malo. Una extraña mezcla que derribará muchas de las defensas de Carla.</p><p>A ninguno le interesa comenzar una relación seria con el otro, así que se ciñen a lo que hay: sexo y negocios. Lo que no esperaban era que fueran a conectar de la manera que lo han hecho.</p><p>Ambos se ocultan cosas, guardan sus secretos y no se esfuerzan por dedicarse ni tacto ni sensibilidad, pero les sobra naturalidad.</p><p>A través de los ojos de Carla y de los encuentros con sus amigas, Eva, Carmen y Vicky, comprobarás los distintos puntos de vista y opiniones sobre las relaciones entre hombres y mujeres.</p>",
+      "category": {
+        "id": 3,
+        "name": "Libros"
+      },
+      "seller": {
+        "id": 4,
+        "nick": "samcropresident",
+        "avatar": "assets/images/ghe2fvcoo9esptbe.jpg"
+      },
+      "publishedDate": 1457391600000,
+      "state": "selling",
+      "price": 4.74,
+      "photo": "assets/images/7b3vcg4rk89za28r.jpg"
+    },
+    {
+      "id": 23,
+      "name": "El antídoto que nos une [Irene Hall]",
+      "description": "<p>Después de dar por finalizada su relación con Morales, Carla continúa con su vida volcándose en el trabajo. Las semanas pasan y ella no tiene noticias del hombre que la abandonó sin darle ninguna explicación. Decidida a seguir adelante, hace lo posible por volver a ser la de siempre, pero para su sorpresa, Morales reaparece y se interpone de nuevo en su camino.</p><p>Antes de que pueda siquiera darse cuenta, ocurre lo inevitable y ambos retoman lo que dejaron. Si bien Carla conoce ahora mucho mejor a Morales, es muy consciente de que él apenas sabe nada de ella. En su empeño por esconderse en su coraza, Carla se muestra implacable con quien pretende descongelarla.</p><p>De lo que ninguno de los dos es consciente es de que una vez la verdad salga a la luz, no habrá vuelta atrás y ya no habrá lugar para los remordimientos.</p>",
+      "category": {
+        "id": 3,
+        "name": "Libros"
+      },
+      "seller": {
+        "id": 5,
+        "nick": "pussywagon",
+        "avatar": "assets/images/7pqa7tkcp54rupte.jpg"
+      },
+      "publishedDate": 1464040800000,
+      "state": "selling",
+      "price": 4.74,
+      "photo": "assets/images/91kzxg1jdyne3p88.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Cicatriz [Juan Gómez-Jurado]",
+      "description": "<p>Simon Sax podría ser un tipo afortunado. Es joven, listo y está punto de convertirse en multimillonario si vende su gran invento -un asombroso algoritmo- a una multinacional. Y, sin embargo, se siente solo. Su éxito contrasta con sus nulas habilidades sociales. Hasta que un día vence sus prejuicios y entra en una web de contactos donde se enamora perdidamente de Irina, con la inexperiencia y la pasión de un adolescente, a pesar de los miles de kilómetros que los separan. Pero ella, marcada con una enigmática cicatriz en la mejilla, arrastra un oscuro secreto.</p><p>Una novela que te hará mirar de otra forma a la persona con la que duermes. Una historia absolutamente adictiva firmada por el autor español de thriller más leído en todo el mundo.</p>",
+      "category": {
+        "id": 3,
+        "name": "Libros"
+      },
+      "seller": {
+        "id": 6,
+        "nick": "ivolunteer",
+        "avatar": "assets/images/v7hkfs7z42qmk2m8.jpg"
+      },
+      "publishedDate": 1447801200000,
+      "state": "selling",
+      "price": 4.73,
+      "photo": "assets/images/89hhphvsjt39qr6b.jpg"
+    },
+    {
+      "id": 25,
+      "name": "El último deseo [Andrzej Sapkowski]",
+      "description": "<p>Geralt de Rivia, brujo y mutante sobrehumano, se gana la vida como cazador de monstruos en una tierra de magia y maravilla: con sus dos espadas al hombro -la de acero para hombres, y la de plata para bestias- da cuenta de estriges, manticoras, grifos, vampiros, quimeras y lobisomes, pero sólo cuando amenazan la paz. Irónico, cínico, descreído y siempre errante, sus pasos lo llevan de pueblo en pueblo ofreciendo sus servicios, hallando las más de las veces que los auténticos monstruos se esconden bajo rostros humanos. En su camino sorteará intrigas, elegirá el mal menor, debatirá cuestiones de precio, hollará el confín del mundo y realizará su último deseo: así comienzan las aventuras del brujo Geralt de Rivia. Andrzej Sapkowski es el gran renovador de la literatura fantástica de nuestros tiempos, un genio del lenguaje y la caracterización cuya prosa ya ha hechizado a millones de lectores en todo el mundo.</p>",
+      "category": {
+        "id": 3,
+        "name": "Libros"
+      },
+      "seller": {
+        "id": 1,
+        "nick": "yippeekiyay",
+        "avatar": "assets/images/jaxm2mrc1k4zwn5y.jpg"
+      },
+      "publishedDate": 1255730400000,
+      "state": "selling",
+      "price": 20.85,
+      "photo": "assets/images/xk5ygnmu4c4y9ody.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Acero y Diamantes [Silvia Sánchez Vázquez]",
+      "description": "<p>Anne es una estudiante de publicidad con grandes aspiraciones. Trabaja como becaria en una importante multinacional en Madrid y pone todo su empeño en hacerse un hueco en el difícil mundo empresarial. Cierto día en que se encuentra organizando un evento para uno de sus clientes, es testigo de uno de los sucesos más extraños de su vida. El lugar donde se encontraba salta por los aires, todo está destrozado y entre la humareda distingue un hombre, una niña y una pareja extraña. Sin querer, se ve envuelta en una lucha de poder de la que no podrá escapar con facilidad. Ajena al conflicto que se disputa desde tiempos inmemoriales, hará lo posible por huir de lo que no comprende.</p><p>Anne pensaba que lo sabía todo pero muy pronto descubre que ni ella misma es capaz de contestar a una de las preguntas más simples. ¿Quién o qué es Anne Ortiz? ¿El mundo es tal y como lo vemos o hay algo que se nos escapa?</p>",
+      "category": {
+        "id": 3,
+        "name": "Libros"
+      },
+      "seller": {
+        "id": 2,
+        "nick": "godhatesusall",
+        "avatar": "assets/images/vuvp3t7rhk26byad.jpg"
+      },
+      "publishedDate": 1394406000000,
+      "state": "selling",
+      "price": 2.99,
+      "photo": "assets/images/5m1ab1q459nofzxj.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Metal y Pólvora [Silvia Sánchez Vázquez]",
+      "description": "<p>Anne ha escapado de la Fundación. Tras descubrir su verdadera naturaleza, la joven estudiante huye en busca de su familia. Sin saber dónde o cómo encontrarlos, decide probar suerte viajando a su tierra. Allí descubrirá una realidad que no se esperaba y que hace tambalear gran parte de sus creencias. Las circunstancias harán que dé más de una vuelta por la geografía española conociendo brujos y otros seres de los que nunca oyó hablar.</p><p>A su complicada situación se le unen nuevas desapariciones y preguntas sobre la veracidad de sus orígenes. Anne averiguará que muchos de los que la rodean no son lo que parecen y, para colmo, el mundo resulta ser algo más complicado de lo que suponía. El poder brujo y el inquisidor no son los únicos de los que tiene que preocuparse. Otras fuerzas siguen a la joven de cerca. Una de ellas tiene fines perversos y la otra se remonta a un pasado arcaico.</p>",
+      "category": {
+        "id": 3,
+        "name": "Libros"
+      },
+      "seller": {
+        "id": 3,
+        "nick": "stickthemwiththepointyend",
+        "avatar": "assets/images/qkmrrsm4dc9gev2z.jpg"
+      },
+      "publishedDate": 1450825200000,
+      "state": "selling",
+      "price": 2.99,
+      "photo": "assets/images/wvdo6t88kn7t4s8b.jpg"
+    },
+    {
+      "id": 28,
+      "name": "El Hombre De La Máscara De Espejos [Vicente Garrido y Nieves Abarca]",
+      "description": "<p>Dos expertos criminólogos retratan la mente del psicópata en una novela negra adictiva. La esperada continuación de la serie protagonizada por Valentina Negro y Javier Sanjuán.</p><p>La inspectora Valentina Negro lucha por superar los traumáticos recuerdos de su último caso, cuando estuvo cerca de perder la vida a manos de un asesino en serie. Pero la maldad no da tregua: pronto se ve envuelta en una nueva y escalofriante cadena de muertes.</p><p>La ayuda del criminólogo Javier Sanjuán será clave para desentrañar una compleja trama relacionada con la desaparición de varias chicas y el rodaje de unas terroríficas películas snuff que recuerdan extrañamente al cine expresionista de Fritz Lang.</p><p>El dolor, la belleza y la locura se dan la mano en las páginas de esta adictiva novela negra, que es al mismo tiempo un excelente retrato de la mente del psicópata firmado por dos expertos criminólogos. Las páginas de El hombre de la máscara de espejosson una invitación a asomarse al abismo a través de una historia trepidante que engancha y estremece desde la primera página.</p>",
+      "category": {
+        "id": 3,
+        "name": "Libros"
+      },
+      "seller": {
+        "id": 4,
+        "nick": "samcropresident",
+        "avatar": "assets/images/ghe2fvcoo9esptbe.jpg"
+      },
+      "publishedDate": 1445378400000,
+      "state": "selling",
+      "price": 11.4,
+      "photo": "assets/images/jsr9wp18jhzbkxdu.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Medio Rey [Joe Abercrombie]",
+      "description": "<p>Yarvi, el hijo menor del rey, nació con una malformación en una mano que ha llevado a todo el mundo, incluso a su propio padre, a considerarlo «medio hombre». Por eso, en lugar de formarse como guerrero, al igual que el resto de varones de su estirpe, se ha dedicado a estudiar para convertirse en uno de los clérigos del reino. Sin embargo, en la víspera de la última prueba para ingresar en esta poderosa orden de sabios, a Yarvi le llega la noticia de que su padre y su hermano han sido asesinados. Él es el nuevo rey.</p><p>Pero tras una terrible traición a manos de sus seres queridos, Yarvi se encontrará solo en un mundo regido por la fuerza física y los corazones fríos. Incapaz de llevar armadura o de levantar un hacha, deberá afilar y agudizar su mente. Cuando se juntan a su alrededor una extraña hermandad de almas perdidas, descubrirá que esos compañeros inesperados tal vez puedan ayudarle a convertirse en el hombre que quiere ser.</p>",
+      "category": {
+        "id": 3,
+        "name": "Libros"
+      },
+      "seller": {
+        "id": 5,
+        "nick": "pussywagon",
+        "avatar": "assets/images/7pqa7tkcp54rupte.jpg"
+      },
+      "publishedDate": 1430949600000,
+      "state": "selling",
+      "price": 8.54,
+      "photo": "assets/images/cv1g3hp7jx8etjvr.jpg"
+    },
+    {
+      "id": 30,
+      "name": "El Caballero De Los Siete Reinos [George R. R. Martin]",
+      "description": "<p>Las andanzas de un caballero de Poniente Los tres primeros relatos de Dunk y Egg Muchas son las historias que se cuentan sobre Aegon V el Improbable y ser Duncan el Alto, su leal comandante de la Guardia Real. Pero la magia y la épica de la leyenda esconden la verdadera naturaleza de los héroes: la determinación de un huérfano del Lecho de Pulgas que llegó a caballero, el arrojo de un príncipe que cambió la corte por los caminos y una amistad inquebrantable capaz de vencer intrigas, traiciones... y revueltas. Durante los reinados de Daeron II y Aerys I, cuando las heridas de la rebelión de los Fuegoscuro todavía estaban abiertas, tienen lugar las primeras aventuras de un caballero fornido y bonachón y de su escudero, un infante real, fiel y de fuerte temperamento. A medio camino entre la fantasía heroica y la novela de caballerías, El caballero de los Siete Reinos narra las peripecias de dos héroes bondadosos en una tierra despiadada.</p>",
+      "category": {
+        "id": 3,
+        "name": "Libros"
+      },
+      "seller": {
+        "id": 6,
+        "nick": "ivolunteer",
+        "avatar": "assets/images/v7hkfs7z42qmk2m8.jpg"
+      },
+      "publishedDate": 1441576800000,
+      "state": "selling",
+      "price": 14.25,
+      "photo": "assets/images/5wmief4igbpozztc.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John McClane",
+      "nick": "yippeekiyay",
+      "avatar": "assets/images/jaxm2mrc1k4zwn5y.jpg",
+      "latitude": 40.4211134,
+      "longitude": -3.7046639999999798,
+      "email": "ikilled@hansgruber.com"
+    },
+    {
+      "id": 2,
+      "name": "Hank Moody",
+      "nick": "godhatesusall",
+      "avatar": "assets/images/vuvp3t7rhk26byad.jpg",
+      "latitude": 40.43938,
+      "longitude": -3.714550000000031,
+      "email": "ilove@runkle.com"
+    },
+    {
+      "id": 3,
+      "name": "Arya Stark",
+      "nick": "stickthemwiththepointyend",
+      "avatar": "assets/images/qkmrrsm4dc9gev2z.jpg",
+      "latitude": 40.4984144,
+      "longitude": -3.6879922000000533,
+      "email": "not@today.com"
+    },
+    {
+      "id": 4,
+      "name": "Jackson Teller",
+      "nick": "samcropresident",
+      "avatar": "assets/images/ghe2fvcoo9esptbe.jpg",
+      "latitude": 40.4214232,
+      "longitude": -3.6123024999999416,
+      "email": "jesus@christ.com"
+    },
+    {
+      "id": 5,
+      "name": "Beatrix Kiddo",
+      "nick": "pussywagon",
+      "avatar": "assets/images/7pqa7tkcp54rupte.jpg",
+      "latitude": 40.4006009,
+      "longitude": -3.745363300000008,
+      "email": "paimei@rulez.com"
+    },
+    {
+      "id": 6,
+      "name": "Katniss Everdeen",
+      "nick": "ivolunteer",
+      "avatar": "assets/images/v7hkfs7z42qmk2m8.jpg",
+      "latitude": 40.4500596,
+      "longitude": -3.6682499999999436,
+      "email": "maytheoddsbeever@inyourfavor.com"
+    }
+  ]
+}
