@@ -16,12 +16,16 @@
   |   - 2 dígitos mínimo y máximo (parte decimal)                    |
   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
+  <!-- Nos suscribimos al evento 'clic', con los paréntesis y le asig-
+       namos el manejador 'notificarSeleccion(data)' enviandole el 
+       producto sobre el que se ha pulsado.-->
   <button
     class="button expanded"
+    (click)="notificarSeleccion(data)"
     [class.success]="data.state === 'selling'"
     [class.secondary]="data.state === 'sold'">
       <span *ngIf="data.state === 'selling'">
-        Comprar por {{ data.price }} €
+        Comprar por {{ data.price | number: '1.2-2' }} €
       </span>
       <span *ngIf="data.state === 'sold'">
         Ver detalles

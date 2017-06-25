@@ -14,7 +14,7 @@ export class ProductService {
     private _http: Http,
     @Inject(BackendUri) private _backendUri) { }
 
-  getProducts(filter: ProductFilter = undefined): Observable<Product[]> {
+  getProducts(filter: ProductFilter): Observable<Product[]> {
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
     | Pink Path                                                        |
@@ -59,8 +59,30 @@ export class ProductService {
     |       state=x (siendo x el estado)                               |
     |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+    // Monto el filtro necesario en función de las diferentes opciones entre el 
+    //texto y la categoria del 'filter'. filter.category puede ser undefined o 
+    //0 y en ambos casos no se debe aplicar el filtro por categoria.
+    let filtro: string;
+    if (filter !== null) {
+      if (filter.text !== undefined && (filter.category !== undefined || parseInt(filter.category) === 0)) { 
+        if (parseInt(filter.category) === 0) {
+          filtro = `q=${filter.text}`;
+        } else {
+          filtro = `q=${filter.text}&category.id=${filter.category}`;
+        }
+      } else if (filter.text !== undefined) {
+        filtro = `q=${filter.text}`;
+      } else if (filter.category !== undefined && parseInt(filter.category) !== 0) {
+        filtro = `category.id=${filter.category}`;
+      } else if (filter.state === 'sold') {
+        filtro = `state=sold`;
+      } else {
+        filtro = undefined;
+      }
+    }
+    // Añadimos al get los parámetros deseados para ordenar los productos (`q=${filter.text}&category.id=${filter.category}`;). Añadimos tambien el filtro deseado.
     return this._http
-      .get(`${this._backendUri}/products`)
+      .get(`${this._backendUri}/products?_sort=publishedDate&_order=DESC&${filtro}`)
       .map((data: Response): Product[] => Product.fromJsonToList(data.json()));
   }
 

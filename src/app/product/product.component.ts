@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 import { Product } from '../product';
 
@@ -21,5 +21,18 @@ export class ProductComponent {
   | de este componente, necesitas, además, un manejador para el      |
   | mismo.                                                           |
   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+  /* Exponemos el atributo de salida 'clickEnProducto' como una instancia
+     del emisor de eventos 'EventEmitter'. Previamente se ha importado la
+     clase 'EventEmitter'  */
+  @Output() clickEnProducto = new EventEmitter<Product>();
+  
+  /* Implementamos el manejador del evento 'click' del botón, emitiendo
+     un evento con emit() y enviando el producto seleccionado (data). */
+  notificarSeleccion(data: Product): void {
+    this.clickEnProducto.emit(data);
+  }
+
+
 
 }

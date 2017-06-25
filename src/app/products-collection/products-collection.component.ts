@@ -1,6 +1,8 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Router } from '@angular/router'
 import { Subject } from 'rxjs/Subject';
 import 'rxjs/add/operator/switchMap';
+//import { AppRoutingModule } from "../app-routing.module";
 
 import { Product } from '../product';
 import { ProductFilter } from '../product-filter';
@@ -16,7 +18,8 @@ export class ProductsCollectionComponent implements OnDestroy, OnInit {
   products: Product[];
   private _filterStream$: Subject<ProductFilter> = new Subject;
 
-  constructor(private _productService: ProductService) { }
+  constructor(private _productService: ProductService,
+              private _router: Router) { }
 
   ngOnInit(): void {
     this._filterStream$
@@ -42,5 +45,13 @@ export class ProductsCollectionComponent implements OnDestroy, OnInit {
   | el Router de la app. La ruta a navegar es '/products', pasando   |
   | como parámetro el identificador del producto.                    |
   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+  /* Implementamos el manejador del evento 'clicEnProducto' y hacemos
+     que la aplicación presente el detalle del producto, navegando a 
+     la ruta /products/:id. Previamente se ha importado la clase Router
+     para poder usar su método 'navigate()'  */
+  presentarProducto(producto: Product): void {
+    this._router.navigate(['products', producto.id ]);
+  }
 
 }

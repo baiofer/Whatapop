@@ -10,11 +10,15 @@
     | Suscribe el componente ProductComponent al evento que hayas      |
     | definido en él para notificar los clics sobre los productos.     |
     |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
+    
+    <!-- Me suscribo al evento que se ha generado al hacer click en un
+         producto y le asigno el manejador 'presentarProducto($event)'
+         enviando el producto seleccionado. -->
     <app-product
       *ngFor="let product of products"
       [data]="product"
-      class="column">
+      class="column"
+      (clickEnProducto)="presentarProducto($event)">
     </app-product>
   </div>
   <div *ngIf="products?.length === 0" class="text-center">
@@ -29,5 +33,6 @@
   | Modifica el elemento <a> para que navegue a la ruta  '/reset'.   |
   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-  <a>Reset de productos</a>
+  <!-- Navegamos a la ruta reset -->
+  <a routerLink="/reset">Reset de productos</a>
 </div>

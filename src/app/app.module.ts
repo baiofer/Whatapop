@@ -17,6 +17,7 @@ import { ProductFilterComponent } from './product-filter/product-filter.componen
 import { ProductResetComponent } from './product-reset/product-reset.component';
 import { ProductService } from './product.service';
 import { ProductsCollectionComponent } from './products-collection/products-collection.component';
+import { PublicationDatePipe } from './publication-date.pipe'
 import { SoldProductsResolveService } from './sold-products-resolve.service';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { UserService } from './user.service';
@@ -35,6 +36,8 @@ import { UserService } from './user.service';
     ProductResetComponent,
     ProductComponent,
     ProductsCollectionComponent,
+    PublicationDatePipe,     //Declaramos el PublicationDatePipe que
+                             //previamente hemos importado
     UserProfileComponent
   ],
   imports: [
