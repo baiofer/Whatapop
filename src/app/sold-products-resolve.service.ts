@@ -31,7 +31,7 @@ export class SoldProductsResolveService implements Resolve<Product[]> {
     let productos: Observable<Product[]>;
     let filter: ProductFilter = {};
     filter.state = 'sold';
-    return this._productService.getProducts(filter);
+    return this._productService.getSoldProducts(filter);
 
   }
 
