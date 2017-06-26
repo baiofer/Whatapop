@@ -21,6 +21,7 @@ import { PublicationDatePipe } from './publication-date.pipe'
 import { SoldProductsResolveService } from './sold-products-resolve.service';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { UserService } from './user.service';
+import { LikeComponent } from './like/like.component';
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
 | Blue Path                                                        |
@@ -38,7 +39,7 @@ import { UserService } from './user.service';
     ProductsCollectionComponent,
     PublicationDatePipe,     //Declaramos el PublicationDatePipe que
                              //previamente hemos importado
-    UserProfileComponent
+    UserProfileComponent, LikeComponent
   ],
   imports: [
     BrowserModule,
