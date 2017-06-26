@@ -65,14 +65,53 @@ export class ProductService {
     let filtro: string;
 
     if (filter !== null) {
+      console.log(filter);
+      //Inicializo el filtro
       filtro = '';
+      //Añado el texto si procede
       if (filter.text !== undefined) {
         filtro = filtro.concat(`q=${filter.text}`);
       }
+      //Añado la categoria si procede
       if (filter.category !== undefined && +filter.category !== 0) {
         filtro = filtro.concat(`&category.id=${filter.category}`)
-      }  
+      }
+      //Añado el estado si procede
+      if (filter.state !== undefined && filter.state !== "-") {
+        filtro = filtro.concat(`&state=${filter.state}`);
+      }
+      
+      //Añado el precio si procede
+      if (filter.minPrice !== undefined && filter.maxPrice !== undefined) {
+        /*
+        if ((+filter.minPrice > 0 || filter.minPrice === '') && (+filter.maxPrice > 0 || filter.maxPrice === '')) {
+          if (filter.minPrice === '') {
+            filtro = filtro.concat();
+            //FILTRO    filter1.precio = {$lt:parseInt(rangoPrecio[1])};
+          } else if (filter.maxPrice === '') {
+            filtro = filtro.concat();
+            // FILTRO   filter1.precio = {$gte:parseInt(rangoPrecio[0])};
+          } else {
+            filtro = filtro.concat();
+            //  FILTROfilter1.precio = {$lt:parseInt(rangoPrecio[1]), $gte:parseInt(rangoPrecio[0])};
+          }
+        }*/
+      }
     }
+
+   
+
+
+ 
+        
+      
+
+
+
+
+
+
+
 
     // Añadimos al get los parámetros deseados para ordenar los productos (`q=${filter.text}&category.id=${filter.category}`;). Añadimos tambien el filtro deseado.
     return this._http

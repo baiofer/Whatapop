@@ -39,7 +39,8 @@ import { LikeComponent } from './like/like.component';
     ProductsCollectionComponent,
     PublicationDatePipe,     //Declaramos el PublicationDatePipe que
                              //previamente hemos importado
-    UserProfileComponent, LikeComponent
+    UserProfileComponent, 
+    LikeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,13 +1,35 @@
 <div>
   <div class="row">
+    <!-- Buscar por texto -->
     <div class="small-6 medium-2 large-3 columns">
-      <input [(ngModel)]="productFilter.text" type="text" placeholder="Pe. Uncharted">
+      <input [(ngModel)]="productFilter.text" type="text" placeholder="Texto">
     </div>
-    <div class="small-6 medium-2 large-3 columns">
+    <!-- Buscar por categoria -->
+    <div class="small-6 medium-2 large-2 columns">
       <select [(ngModel)]="productFilter.category">
         <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
       </select>
     </div>
+    <!-- Opciones de búsqueda  -->
+    <div class="small-6 medium-2 large-2 columns">
+      <select [(ngModel)]="productFilter.state">
+        <option value="-" selected>-</option>
+        <option value="selling">En venta</option>
+        <option value="sold">Vendidos</option>
+      </select>
+    </div>
+
+    <!-- Rango de precios. Precio mínimo -->
+    <div class="small-6 medium-2 large-1 columns">
+      <input [(ngModel)]="productFilter.minPrice" type="text" placeholder="Mín">
+    </div>
+
+    <!-- Rango de precios. Precio máximo -->
+    <div class="small-6 medium-2 large-1 columns">
+      <input [(ngModel)]="productFilter.maxPrice" type="text" placeholder="Max">
+    </div>
+
+    <!-- Botón de BUSCAR -->
     <div class="small-12 medium-3 large-2 columns">
       <button (click)="notifyHost()" class="button expanded">Buscar</button>
     </div>
