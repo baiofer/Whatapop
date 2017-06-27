@@ -62,7 +62,7 @@ export class ProductService {
     /* Añado los filtros deseados. Por defecto, para los filtros por precio, se ordena por precio del producto y para los demás filtros, por fecha de publicación. Si se he seleccionado una ordenación, se usa la ordenación seleccionada */
     let filtro: string;
     let orden: string;
-
+  
     if (filter !== null) {
       //Inicializo el filtro y la ordenación
       filtro = "";
@@ -109,6 +109,12 @@ export class ProductService {
           }
         }
       }
+      //Si hay un usuario seleccionado, añado el usuario al filtro
+      if (filter.user !== undefined && +filter.user !== 0) {
+        filtro = filtro.concat(`&seller.id=${filter.user}`)
+        orden = (`_sort=publishedDate&_order=DESC`);
+      }
+      
       /*Si hay ordenación seleccionada, añado la ordenación. Por defecto dejo las añadidas en los filtros, si hay alguna ordenación definida, la pongo en sustitución de la de defecto. */
       if (filter.orden !== undefined || filter.orden !== "") {
         switch (filter.orden) {

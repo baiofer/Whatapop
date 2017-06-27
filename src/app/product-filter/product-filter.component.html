@@ -2,18 +2,22 @@
   <div class="row">
     <!-- Buscar por texto -->
     <div class="small-6 medium-2 large-2 columns">
-      <input [(ngModel)]="productFilter.text" type="text" placeholder="Texto">
+      <label for="texto">Texto</label>
+      <input id="texto" [(ngModel)]="productFilter.text" type="text" placeholder="Texto">
     </div>
+
     <!-- Buscar por categoria -->
     <div class="small-6 medium-2 large-2 columns">
-      <select [(ngModel)]="productFilter.category">
+      <label for="categoria">Categoria</label>
+      <select id="categoria" [(ngModel)]="productFilter.category">
         <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
       </select>
     </div>
 
     <!-- Opciones de búsqueda  -->
     <div class="small-6 medium-2 large-2 columns">
-      <select [(ngModel)]="productFilter.state">
+      <label for="estado">Estado</label>
+      <select id="estado" [(ngModel)]="productFilter.state">
         <option value="-" selected>-</option>
         <option value="selling">En venta</option>
         <option value="sold">Vendidos</option>
@@ -23,16 +27,27 @@
 
     <!-- Rango de precios. Precio mínimo -->
     <div class="small-6 medium-2 large-1 columns">
-      <input [(ngModel)]="productFilter.minPrice" type="text" placeholder="Mín">
+      <label for="precio">Precio</label>
+      <input id="precio" [(ngModel)]="productFilter.minPrice" type="text" placeholder="Mín">
     </div>
 
     <!-- Rango de precios. Precio máximo -->
     <div class="small-6 medium-2 large-1 columns">
-      <input [(ngModel)]="productFilter.maxPrice" type="text" placeholder="Max">
+      <label for="precio2">Precio</label>
+      <input id= "precio2" [(ngModel)]="productFilter.maxPrice" type="text" placeholder="Max">
+    </div>
+
+    <!-- Buscar por usuario -->
+    <div class="small-6 medium-2 large-2 columns">
+      <label for="usuario">Usuario</label>
+      <select id="usuario" [(ngModel)]="productFilter.user">
+        <option *ngFor="let user of users" [value]="user.id">{{ user.name }}</option>
+      </select>
     </div>
 
     <!-- Opciones de ordenación  -->
     <div class="small-6 medium-2 large-2 columns">
+      <label for="ordena">Ordenar por</label>
       <select [(ngModel)]="productFilter.orden">
         <option value="-" selected>-</option>
         <option value="precio">Por Precio</option>

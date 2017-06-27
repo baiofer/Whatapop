@@ -561,6 +561,15 @@
   ],
   "users": [
     {
+      "id": 0,
+      "name": "-",
+      "nick": "",
+      "avatar": "",
+      "latitude": 0,
+      "longitude": 0,
+      "email": ""
+    },
+    {
       "id": 1,
       "name": "John McClane",
       "nick": "yippeekiyay",

@@ -19,4 +19,10 @@ export class UserService {
       .map((data: Response): User => User.fromJson(data.json()));
   }
 
+  getUsers(): Observable<User[]> {
+    return this._http
+      .get(`${this._backendUri}/users`)
+      .map((data: Response): User[] => User.fromJsonToList(data.json()));
+  }
+
 }
