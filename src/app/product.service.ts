@@ -62,60 +62,72 @@ export class ProductService {
     // Monto el filtro necesario en función de las diferentes opciones entre el 
     //texto y la categoria del 'filter'. filter.category puede ser undefined o 
     //0 y en ambos casos no se debe aplicar el filtro por categoria.
+
+    //Añado el filtro por estado (state) y por precio de venta (price).
+    //Los 
     let filtro: string;
+    let orden: string;
 
     if (filter !== null) {
-      console.log(filter);
       //Inicializo el filtro
-      filtro = '';
+      filtro = "";
+      orden = "";
       //Añado el texto si procede
       if (filter.text !== undefined) {
         filtro = filtro.concat(`q=${filter.text}`);
+        orden = (`_sort=publishedDate&_order=DESC`);
       }
       //Añado la categoria si procede
       if (filter.category !== undefined && +filter.category !== 0) {
         filtro = filtro.concat(`&category.id=${filter.category}`)
+        orden = (`_sort=publishedDate&_order=DESC`);
       }
       //Añado el estado si procede
       if (filter.state !== undefined && filter.state !== "-") {
-        filtro = filtro.concat(`&state=${filter.state}`);
+        if (filter.state === "fav") {
+          
+        } else {
+          filtro = filtro.concat(`&state=${filter.state}`);
+          orden = (`_sort=publishedDate&_order=DESC`);
+        }
       }
-      
       //Añado el precio si procede
-      if (filter.minPrice !== undefined && filter.maxPrice !== undefined) {
-        /*
-        if ((+filter.minPrice > 0 || filter.minPrice === '') && (+filter.maxPrice > 0 || filter.maxPrice === '')) {
-          if (filter.minPrice === '') {
-            filtro = filtro.concat();
-            //FILTRO    filter1.precio = {$lt:parseInt(rangoPrecio[1])};
-          } else if (filter.maxPrice === '') {
-            filtro = filtro.concat();
-            // FILTRO   filter1.precio = {$gte:parseInt(rangoPrecio[0])};
+      if ((filter.minPrice !== undefined && filter.minPrice !== "") || (filter.maxPrice !== undefined && filter.maxPrice !== "")) {
+        if ((+filter.minPrice > 0 || filter.minPrice === undefined || filter.minPrice === "") && (+filter.maxPrice > 0 || filter.maxPrice === undefined || filter.maxPrice === "")) {
+          if (filter.minPrice === '' || filter.minPrice === undefined) {
+            // Filtro menor que máximo
+            filtro = filtro.concat(`&price_lte=${filter.maxPrice}`);
+            orden = (`_sort=price&_order=ASC`);
+          } else if (filter.maxPrice === '' || filter.maxPrice === undefined) {
+            // Filtro mayor que mínimo
+            filtro = filtro.concat(`&price_gte=${filter.minPrice}`);
+            orden = (`_sort=price&_order=ASC`);
           } else {
-            filtro = filtro.concat();
-            //  FILTROfilter1.precio = {$lt:parseInt(rangoPrecio[1]), $gte:parseInt(rangoPrecio[0])};
+            // Filtro entre mínimo y máximo
+            filtro = filtro.concat(`&price_gte=${filter.minPrice}&price_lte=${filter.maxPrice}`);
+            orden = (`_sort=price&_order=ASC`);
           }
-        }*/
+        }
+      }
+      //Añado la ordenación si está seleccionada. Por defecto dejo las puestas, si hay
+      //definida una ordenación, la cambio.
+      if (filter.orden !== undefined || filter.orden !== "") {
+        switch (filter.orden) {
+          case "precio" :
+            orden =(`_sort=price&_order=ASC`);
+            break;
+          case "publicacion" :
+            orden = (`_sort=publishedDate&_order=DESC`);
+            break;
+          case "alfa" :
+            orden = (`_sort=name&_order=ASC`);
+            break;
+        }
       }
     }
-
-   
-
-
- 
-        
-      
-
-
-
-
-
-
-
-
     // Añadimos al get los parámetros deseados para ordenar los productos (`q=${filter.text}&category.id=${filter.category}`;). Añadimos tambien el filtro deseado.
     return this._http
-      .get(`${this._backendUri}/products?_sort=publishedDate&_order=DESC&${filtro}`)
+      .get(`${this._backendUri}/products?${orden}&${filtro}`)
       .map((data: Response): Product[] => Product.fromJsonToList(data.json()));
   }
 

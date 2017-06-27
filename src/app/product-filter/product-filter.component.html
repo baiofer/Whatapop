@@ -1,7 +1,7 @@
 <div>
   <div class="row">
     <!-- Buscar por texto -->
-    <div class="small-6 medium-2 large-3 columns">
+    <div class="small-6 medium-2 large-2 columns">
       <input [(ngModel)]="productFilter.text" type="text" placeholder="Texto">
     </div>
     <!-- Buscar por categoria -->
@@ -10,12 +10,14 @@
         <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
       </select>
     </div>
+
     <!-- Opciones de búsqueda  -->
     <div class="small-6 medium-2 large-2 columns">
       <select [(ngModel)]="productFilter.state">
         <option value="-" selected>-</option>
         <option value="selling">En venta</option>
         <option value="sold">Vendidos</option>
+        <option value="fav">Favoritos</option>
       </select>
     </div>
 
@@ -27,6 +29,16 @@
     <!-- Rango de precios. Precio máximo -->
     <div class="small-6 medium-2 large-1 columns">
       <input [(ngModel)]="productFilter.maxPrice" type="text" placeholder="Max">
+    </div>
+
+    <!-- Opciones de ordenación  -->
+    <div class="small-6 medium-2 large-2 columns">
+      <select [(ngModel)]="productFilter.orden">
+        <option value="-" selected>-</option>
+        <option value="precio">Por Precio</option>
+        <option value="publicacion">Por Fecha de Publicación</option>
+        <option value="alfa">Alfabéticamente</option>
+      </select>
     </div>
 
     <!-- Botón de BUSCAR -->
