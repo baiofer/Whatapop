@@ -59,39 +59,39 @@ export class ProductService {
     |       state=x (siendo x el estado)                               |
     |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-    // Monto el filtro necesario en función de las diferentes opciones entre el 
-    //texto y la categoria del 'filter'. filter.category puede ser undefined o 
-    //0 y en ambos casos no se debe aplicar el filtro por categoria.
-
-    //Añado el filtro por estado (state) y por precio de venta (price).
-    //Los 
+    /* Añado los filtros deseados. Por defecto, para los filtros por precio, se ordena por precio del producto y para los demás filtros, por fecha de publicación. Si se he seleccionado una ordenación, se usa la ordenación seleccionada */
     let filtro: string;
     let orden: string;
 
     if (filter !== null) {
-      //Inicializo el filtro
+      //Inicializo el filtro y la ordenación
       filtro = "";
       orden = "";
-      //Añado el texto si procede
+      //Si hay un texto introducido, añado el texto al filtro.
       if (filter.text !== undefined) {
         filtro = filtro.concat(`q=${filter.text}`);
         orden = (`_sort=publishedDate&_order=DESC`);
       }
-      //Añado la categoria si procede
+      //Si hay una categoria seleccionada, añado la categoria al filtro
       if (filter.category !== undefined && +filter.category !== 0) {
         filtro = filtro.concat(`&category.id=${filter.category}`)
         orden = (`_sort=publishedDate&_order=DESC`);
       }
-      //Añado el estado si procede
+      //Si hay un estado seleccionado, añado el estado al filtro
       if (filter.state !== undefined && filter.state !== "-") {
+        //Si el estado es favoritos, añado los favoritos al filtro
         if (filter.state === "fav") {
-          
+          for( let key in localStorage) {
+            filtro = filtro.concat(`&id=${key}`);
+          }
+          orden = (`_sort=publishedDate&_order=DESC`);
+        //Si no es favoritos, añado el estado seleccionado
         } else {
           filtro = filtro.concat(`&state=${filter.state}`);
           orden = (`_sort=publishedDate&_order=DESC`);
         }
       }
-      //Añado el precio si procede
+      //Si hay un rango de precios seleccionado, añado el rango al filtro
       if ((filter.minPrice !== undefined && filter.minPrice !== "") || (filter.maxPrice !== undefined && filter.maxPrice !== "")) {
         if ((+filter.minPrice > 0 || filter.minPrice === undefined || filter.minPrice === "") && (+filter.maxPrice > 0 || filter.maxPrice === undefined || filter.maxPrice === "")) {
           if (filter.minPrice === '' || filter.minPrice === undefined) {
@@ -109,8 +109,7 @@ export class ProductService {
           }
         }
       }
-      //Añado la ordenación si está seleccionada. Por defecto dejo las puestas, si hay
-      //definida una ordenación, la cambio.
+      /*Si hay ordenación seleccionada, añado la ordenación. Por defecto dejo las añadidas en los filtros, si hay alguna ordenación definida, la pongo en sustitución de la de defecto. */
       if (filter.orden !== undefined || filter.orden !== "") {
         switch (filter.orden) {
           case "precio" :
@@ -125,7 +124,7 @@ export class ProductService {
         }
       }
     }
-    // Añadimos al get los parámetros deseados para ordenar los productos (`q=${filter.text}&category.id=${filter.category}`;). Añadimos tambien el filtro deseado.
+    // Añadimos al get los parámetros deseados para ordenar los productos "filtro" y "orden".
     return this._http
       .get(`${this._backendUri}/products?${orden}&${filtro}`)
       .map((data: Response): Product[] => Product.fromJsonToList(data.json()));
