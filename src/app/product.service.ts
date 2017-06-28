@@ -81,10 +81,15 @@ export class ProductService {
       if (filter.state !== undefined && filter.state !== "-") {
         //Si el estado es favoritos, añado los favoritos al filtro
         if (filter.state === "fav") {
-          for( let key in localStorage) {
-            filtro = filtro.concat(`&id=${key}`);
+          if (localStorage.length !== 0) {
+            for( let key in localStorage) {
+              filtro = filtro.concat(`&id=${key}`);
+            }
+          } else {
+            filtro = filtro.concat(`&id=0`);
           }
           orden = (`_sort=publishedDate&_order=DESC`);
+        
         //Si no es favoritos, añado el estado seleccionado
         } else {
           filtro = filtro.concat(`&state=${filter.state}`);
