@@ -27,7 +27,7 @@
 
 * **AppRoutingModule**
 
-# @Injectable #
+# Servicios #
 
 * **CategoryService**
 
